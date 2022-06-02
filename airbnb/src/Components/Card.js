@@ -5,7 +5,7 @@ import katie from "../images/katie-zaferes.png";
 export default function Card(props) {
   return (
     <div className="card">
-      <img src={props.img}/>
+      <img src={props.img} className="card-image"/>
       <h4 className='card-banner'>Sold Out</h4>
       <div className="card-stats">
         <img src={star} className='star-img'/>
