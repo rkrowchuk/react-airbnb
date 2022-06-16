@@ -43,12 +43,18 @@ body {
   line-height: 110%;
   margin-top: 0;
 }
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
 
 .card {
   width: 176px;
   display: flex;
   flex-direction: column;
-  margin-left: 36px;;
+  margin-left: 20px;;
 }
 
 .card-banner {
