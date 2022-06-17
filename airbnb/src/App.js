@@ -7,6 +7,7 @@ function App() {
   const cards = data.map((card) => {
     return (
       <Card 
+        key={card.id}
         img={require(`../public/images/${card.coverImg}`)}
         rating={card.stats.rating}
         reviewCount={card.stats.reviewCount}
