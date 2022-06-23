@@ -11,9 +11,10 @@ function App() {
         img={require(`../public/images/${card.coverImg}`)}
         rating={card.stats.rating}
         reviewCount={card.stats.reviewCount}
-        country={card.location}
+        location={card.location}
         title={card.title}
         price={card.price}
+        openSpots={card.openSpots}
       />
     )
   })
